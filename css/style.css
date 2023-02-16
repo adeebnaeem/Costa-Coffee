@@ -1,0 +1,652 @@
+@font-face {
+    font-family: Costa Display Wave Bold;
+    src: url(../fonts/CostaDisplayWave-Bold-2f1df097a38ee7561a66a632ab0cd67f.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Costa Text Bold;
+    src: url(../fonts/CostaText-Bold-ed9040c301b748d0775f1738e94b9a12.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Costa Text Regular;
+    src: url(../fonts/CostaText-Regular-d819baeadd703ec19dd54fce7aba0a91.woff2) format("woff2");
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+
+/* navbar sec */
+
+.hero-sec {
+    background-image: url(/assests/jan23-extraordinary_everyday-takeaway-1600x680.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+.navbar {
+    padding: 25px 0px !important;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+.navbar .navbar-brand {
+    height: 88px;
+    width: 18%;
+    padding: 5px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Costa Display Wave Bold", sans-serif;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+.navbar ul li {
+    margin: 0 12px;
+    line-height: 13px;
+}
+
+.navbar .nav-right-contant a i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.nav-prnt .hero-contant h1 {
+    color: #6d1f37 !important;
+    font-family: "Costa Display Wave Bold", sans-serif;
+    font-weight: 800;
+}
+
+.nav-prnt {
+    height: 100vh;
+}
+
+.nav-prnt .hero-contant p {
+    color: #6d1f37 !important;
+    font-weight: 600;
+    font-family: "Costa Text Bold", sans-serif;
+}
+
+.hero-contant .heroInner {
+    margin: -27px 0px 0 170px;
+}
+
+.nav-prnt .hero-contant button {
+    background-color: #6d1f37;
+    padding: 12px 18px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-family: "Costa Text Bold", sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-prnt .hero-contant .col-4 button:hover {
+    background-color: #6d1f37 !important;
+    cursor: pointer;
+}
+
+.nav-prnt .hero-contant i {
+    color: #ffffff;
+    font-size: 11px;
+    margin: 5px 0px 0px 12px;
+}
+
+
+/* navbar sec */
+
+.nav-icon-prnt a {
+    margin-right: 13px;
+}
+
+
+/* sec Recall-parent starts */
+
+.product-Recall-sec {
+    overflow-x: hidden;
+    -webkit-mask-image: url(/assests/download2.svg);
+    margin-top: -150px;
+    z-index: 9;
+    -webkit-box-pack: center;
+    background-color: rgb(244, 243, 239);
+    -webkit-mask-size: cover;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.product-Recall-parent {
+    padding: 10px 40px;
+    padding-bottom: 100px;
+}
+
+.product-Recall-parent .product-recall-right-contant {
+    margin-bottom: -100px;
+}
+
+.product-Recall-parent .product-recall-right-contant h1 {
+    color: #6d1f37;
+    font-family: "Costa Display Wave Bold", sans-serif;
+}
+
+.product-Recall-parent .product-recall-right-contant p {
+    color: #6d1f37;
+    font-size: 30px !important;
+    font-weight: 700;
+    font-family: "Costa Display Wave Bold", sans-serif;
+}
+
+.product-Recall-parent .product-recall-right-contant button {
+    background-color: #6d1f37;
+    padding: 15px 26px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Costa Display Wave Bold", sans-serif;
+    letter-spacing: 1px;
+}
+
+.product-Recall-parent .product-recall-right-contant button i {
+    font-size: 11px;
+}
+
+.product-Recall-parent .product-recall-right-contant button:hover {
+    background-color: #aa1643;
+}
+
+.whatsnew_sec {
+    background-image: url(../assests/wavy-background-180786598e741294f08ecaf1990ddc76.png);
+    background-repeat: repeat;
+    background-size: 320px 320px;
+    padding: 100px 0;
+}
+
+.whatsnew_sec .main_title h3 {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(109, 31, 55);
+    text-align: center;
+    margin-bottom: 56px;
+    font-family: "Costa Display Wave Bold", sans-serif;
+}
+
+.whatsnew_sec .card-one {
+    background-color: rgb(245, 142, 144);
+    margin: 0px auto;
+}
+
+.whatsnew_sec .card-two {
+    background-color: rgb(207, 168, 202);
+    margin: 0px auto;
+}
+
+.whatsnew_sec .card-three {
+    background-color: rgb(176, 221, 245);
+    margin: 0px auto;
+}
+
+.whatsnew_sec .card-one img {
+    width: 100%;
+    height: 241px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.whatsnew_sec .card-one .innercard h3 {
+    color: rgb(109, 31, 55);
+    margin: 30px 0;
+    font-family: "Costa Display Wave Bold", sans-serif !important;
+}
+
+.whatsnew_sec .card-one .innercard p {
+    color: rgb(34, 35, 34);
+    font-weight: 500 !important;
+    font-family: "Costa Text Regular", sans-serif;
+}
+
+.whatsnew_sec .card-one .innercard {
+    padding: 0px 10px;
+}
+
+.whatsnew_sec .card-one .innercard button {
+    border: none;
+    pointer-events: auto;
+    background: rgb(109, 31, 55);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 32px;
+    display: inline-block;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    font-weight: normal !important;
+    font-family: "Costa Display Wave Bold", sans-serif;
+}
+
+.whatsnew_sec .card-one .innercard button i {
+    font-size: 10px;
+}
+
+.main_row {
+    padding: 0 35px;
+}
+
+.seclast_footer {
+    background-color: rgb(181, 17, 68);
+    padding: 60px;
+}
+
+.seclast_footer .first_col .innerfirst-col h6 {
+    margin: 0px 0px 40px;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    font-family: "Costa Text Bold", sans-serif;
+}
+
+.seclast_footer .first_col .innerfirst-col ul {
+    padding: 0 !important;
+}
+
+.seclast_footer .first_col .innerfirst-col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+    font-weight: normal !important;
+}
+
+.seclast_footer .first_col .innerfirst-col ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Costa Text Regular", sans-serif;
+}
+
+.footer {
+    background-color: rgb(109, 31, 55);
+    padding: 30px;
+}
+
+.footer .footer_info p {
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+.footer .footer_info ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer .footer_info ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: "Costa Text Regular", sans-serif;
+}
+
+.footer .footer_info .footer_icon i {
+    font-size: 33px;
+    color: white;
+    margin: 0 10px;
+}
+
+.footer .footer_info .footer_icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+/* side bar  */
+
+.hamburger-Icon {
+    display: none;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.25s ease 0s;
+    z-index: 1000;
+}
+
+.hamburger-Icon span {
+    height: 3px;
+    width: 22px;
+    background: white;
+    margin: 2px 0;
+    transition: all 0.25s ease 0s;
+}
+
+.hamburger-Icon.triggered {
+    width: fit-content;
+    transform: translateX(0px);
+}
+
+.hamburger-Icon.triggered span:nth-child(1) {
+    transition: all 0.25s ease 0s;
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger-Icon.triggered span:nth-child(2) {
+    transition: all 0.25s ease 0s;
+    transform: translateX(-300px);
+}
+
+.hamburger-Icon.triggered span:nth-child(3) {
+    transition: all 0.25s ease 0s;
+    transform: rotate(-45deg) translate(3px, -4px);
+}
+
+.smallMainNav {
+    list-style: none;
+}
+
+.smallMainNav.menuOpen {
+    left: 0;
+    opacity: 1 !important;
+}
+
+.smallMainNav {
+    opacity: 0.3;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: -130%;
+    z-index: 999;
+    transform: translateX(0%);
+    transition: transform 250ms ease-in-out 0s;
+    background-color: rgb(109, 31, 55) !important;
+    background-image: url(/assests/waffle.svg) !important;
+    background-size: cover;
+}
+
+.smallMainNav .mainNavLinks a {
+    color: white;
+    margin-left: 36px;
+    line-height: 38px;
+    text-decoration: none;
+    font-family: Costa Text Bold;
+    font-size: 25px;
+    box-sizing: content-box;
+    font-weight: 800;
+}
+
+.smallMainNav .mainNavLogin {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    padding: 38px 0px;
+    background: rgb(181, 17, 68);
+    font-family: Costa Text Bold;
+}
+
+.smallMainNav .mainNavLogin a {
+    text-decoration: none;
+}
+
+.smallMainNav .mainNavLogin img {
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 36px;
+    margin-right: 11px;
+    width: 17px;
+    height: 21px;
+}
+
+.smallMainNav .mainNavLogin a {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: normal !important;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.heroImgSmall {
+    display: none;
+}
+
+@media screen and (min-width: 1400px) {
+    .product-Recall-sec {
+        margin-top: -207px;
+    }
+    .card-one {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-contant .heroInner {
+        margin: -2px 0px 0 70px;
+    }
+    .navbar .navbar-brand {
+        width: 95px;
+        max-height: 35px;
+    }
+    .navbar ul li a {
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .product-Recall-sec {
+        width: 100%;
+    }
+    img {
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-wrap: wrap !important;
+    }
+}
+
+@media screen and (max-width: 997px) {
+    .hamburger-Icon {
+        display: flex;
+    }
+    .hero-contant {
+        justify-content: center;
+    }
+    .hero-contant .heroInner {
+        margin: 0;
+        text-align: center;
+    }
+    .hero-sec {
+        background-image: url(/assests/jan23-extraordinary_everyday-takeaway-768x797.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        height: 160vh;
+    }
+    .heroImgSmall {
+        display: block;
+    }
+    .heroImgLarge {
+        display: none;
+    }
+    .footer .footer_info ul {
+        flex-wrap: wrap !important;
+    }
+    .footer .footer_info ul li a {
+        margin: 15px 0;
+    }
+    .main_row {
+        padding: 0px !important;
+    }
+    .product-Recall-parent {
+        flex-direction: column-reverse !important;
+    }
+    .product-racall-left-contant {
+        margin: 50px auto !important;
+    }
+    .product-Recall-sec {
+        margin-top: -70px;
+    }
+    .nav-prnt .hero-contant button {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .product-Recall-parent .product-recall-right-contant button {
+        font-size: 18px;
+    }
+    .product-Recall-parent .product-recall-right-contant h1 {
+        font-size: 38px !important;
+        text-align: center;
+    }
+    .product-Recall-parent .product-recall-right-contant p {
+        font-size: 25px !important;
+        text-align: center;
+    }
+    .product-recall-right-contant .btn {
+        display: block;
+        margin: 0 auto;
+    }
+    .product-Recall-parent {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product-Recall-parent .product-recall-right-contant h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .hero-contant .heroInner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-prnt .hero-contant h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .nav-prnt .hero-contant p {
+        font-size: 30px;
+    }
+    .whatsnew_sec .card-one .innercard button {
+        font-size: 19px;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+    .whatsnew_sec .card-one .innercard p {
+        margin: 0px 20px 35px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .whatsnew_sec .card-one .innercard h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-prnt .hero-contant h1 {
+        text-align: left;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-sec {
+        height: 100vh;
+        background-size: cover;
+    }
+    .whatsnew_sec .card-one .innercard button,
+    button.btn {
+        padding: 8px 18px !important;
+    }
+    .whatsnew_sec .card-one .innercard button i,
+    button.btn i {
+        margin-top: 0 !important;
+        margin-left: 5px !important;
+    }
+    .product-Recall-parent .product-recall-right-contant,
+    .product-Recall-parent {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .product-Recall-parent .product-recall-right-contant h1 {
+        font-size: 30px !important;
+        line-height: 33px;
+    }
+    .product-Recall-parent .product-recall-right-contant p {
+        font-size: 20px !important;
+        line-height: 22px;
+    }
+    .whatsnew_sec .main_title h3 {
+        margin-bottom: 40px;
+    }
+    .whatsnew_sec .card-one .innercard h3 {
+        margin: 12px 0;
+    }
+    .seclast_footer {
+        padding: 30px !important;
+    }
+    .footer .footer_info ul li {
+        margin: 0 10px !important;
+    }
+    .footer .footer_info ul li:nth-child(4) {
+        margin: 24px 10px 16px 10px !important;
+    }
+    .seclast_footer .first_col .innerfirst-col h6 {
+        margin: 10px 0px 10px !important;
+    }
+    .contai_cards {
+        padding: 0 !important;
+    }
+    .footer .footer_info .footer_icon {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+    .footer .container-lg {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer .footer_info ul {
+        flex-direction: column !important;
+        align-items: start;
+    }
+    .footer .footer_info ul li a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer_info {
+        flex-wrap: wrap;
+    }
+    .first_col {
+        padding: 0 !important;
+    }
+}
