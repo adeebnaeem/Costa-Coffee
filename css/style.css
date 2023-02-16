@@ -23,7 +23,7 @@ body {
 /* navbar sec */
 
 .hero-sec {
-    background-image: url(/assests/jan23-extraordinary_everyday-takeaway-1600x680.jpg);
+    background-image: url(../assests/jan23-extraordinary_everyday-takeaway-1600x680.jpg);
     background-repeat: no-repeat;
     background-size: 100% 90%;
 }
@@ -117,7 +117,7 @@ body {
 
 .product-Recall-sec {
     overflow-x: hidden;
-    -webkit-mask-image: url(/assests/download2.svg);
+    -webkit-mask-image: url(../assests/download2.svg);
     margin-top: -150px;
     z-index: 9;
     -webkit-box-pack: center;
@@ -375,7 +375,7 @@ body {
     transform: translateX(0%);
     transition: transform 250ms ease-in-out 0s;
     background-color: rgb(109, 31, 55) !important;
-    background-image: url(/assests/waffle.svg) !important;
+    background-image: url(../assests/waffle.svg) !important;
     background-size: cover;
 }
 
@@ -480,7 +480,7 @@ body {
         text-align: center;
     }
     .hero-sec {
-        background-image: url(/assests/jan23-extraordinary_everyday-takeaway-768x797.jpg) !important;
+        background-image: url(../assests/jan23-extraordinary_everyday-takeaway-768x797.jpg) !important;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center;
